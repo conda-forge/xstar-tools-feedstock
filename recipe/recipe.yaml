@@ -14,7 +14,7 @@ source:
   sha256: ${{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: win
   script: build.sh
 
@@ -59,12 +59,12 @@ about:
   documentation: https://github.com/xstar-tools/xstar-tools/tree/main/docs
   license: GPL-3.0-only
   license_file: LICENSE
-  summary: Source-faithful Python/C++ XSTAR tools, atomic-data utilities, and runtime
+  summary: Python/C++ tools for XSTAR atomic data and high-performance runtimes
   description: |
-    xstar-tools provides source-faithful Python/C++ XSTAR tools and the native
-    non-MPI XSTAR runtime. The canonical scientific oracle remains FORTRAN
-    XSTAR 2.59g. Atomic data file atdb.fits remains external and is discovered
-    through the documented XSTAR data-path contract.
+    xstar-tools provides Python/C++ tools for XSTAR atomic data, and the native
+    XSTAR runtime. The canonical scientific oracle remains FORTRAN XSTAR 2.59g.
+    The atomic database `atdb.fits` is not bundled with the package; it remains
+    external and is discovered through the documented data-path contract.
 
 extra:
   recipe-maintainers:
