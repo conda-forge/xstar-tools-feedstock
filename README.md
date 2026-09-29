@@ -7,16 +7,16 @@ Home: https://github.com/xstar-tools/xstar-tools
 
 Package license: GPL-3.0-only
 
-Summary: Source-faithful Python/C++ XSTAR tools, atomic-data utilities, and runtime
+Summary: Python/C++ tools for XSTAR atomic data and high-performance runtimes
 
 Development: https://github.com/xstar-tools/xstar-tools
 
 Documentation: https://github.com/xstar-tools/xstar-tools/tree/main/docs
 
-xstar-tools provides source-faithful Python/C++ XSTAR tools and the native
-non-MPI XSTAR runtime. The canonical scientific oracle remains FORTRAN
-XSTAR 2.59g. Atomic data file atdb.fits remains external and is discovered
-through the documented XSTAR data-path contract.
+xstar-tools provides Python/C++ tools for XSTAR atomic data, and the native
+XSTAR runtime. The canonical scientific oracle remains FORTRAN XSTAR 2.59g.
+The atomic database `atdb.fits` is not bundled with the package; it remains
+external and is discovered through the documented data-path contract.
 
 Current build status
 ====================
@@ -75,6 +75,34 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=29651&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xstar-tools-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgepython3.14.____cp314" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=29651&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xstar-tools-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=29651&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xstar-tools-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.13.____cp313</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=29651&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xstar-tools-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.14.____cp314</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=29651&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xstar-tools-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.14.____cp314" alt="variant">
                 </a>
               </td>
             </tr>
