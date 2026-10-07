@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: xstar-tools
-  version: "0.6.89.5"
-  sha256: "961b66b0ce0b3bc966a6322a3bef05e65879e1f09d50e8d4b9527030ad7a91b2"
+  version: "0.6.90.5.8"
+  sha256: "edd8e59d7461d4a277c0c4bb36446e413edb5b88b3e5c4510d79eedeb99bab01"
 
 package:
   name: ${{ name }}
@@ -14,7 +14,7 @@ source:
   sha256: ${{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: win
   script: build.sh
 
